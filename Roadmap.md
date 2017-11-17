@@ -2,7 +2,7 @@
 In the early stages, development will focus around features required to run basic D3D11 samples. When the project is more advanced, priorities may shift to getting actual games to work.
 
 ## Immediate goals
-- Implement enough D3D11 and DXGI features to run the [tutorial samples](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11Tutorials) from the Microsoft SDK.
+- Implement enough D3D11 and DXGI features to run the [tutorials](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11Tutorials) from the Microsoft SDK.
   - DXVK: implement proper graphics pipeline support
   - DXVK: implement uniform buffers and uniform texel buffers
   - DXVK: implement textures
