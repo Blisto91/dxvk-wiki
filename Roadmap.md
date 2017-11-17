@@ -8,6 +8,7 @@ In the early stages, development will focus around features required to run basi
   - DXVK: implement textures
   - DXGI: Implement DxgiSwapChain
   - DXGI: Bump DxgiFactory to IDXGIFactory1
+  - DXBC: Support basic vertex and pixel shaders.
   - D3D11: Wire up required features to DXVK
 
 ## Mid-term goals
