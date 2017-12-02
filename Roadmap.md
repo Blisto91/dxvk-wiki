@@ -3,11 +3,11 @@ In the early stages, development will focus around features required to run basi
 
 ## Immediate goals
 - Implement enough D3D11 and DXGI features to run the [tutorials](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11Tutorials) from the Microsoft SDK.
-  - DXVK: implement proper graphics pipeline support
+  - DXVK: implement proper graphics pipeline support **(done)**
   - DXVK: implement uniform buffers and uniform texel buffers
   - DXVK: implement textures
-  - DXGI: Implement DxgiSwapChain
-  - DXGI: Bump DxgiFactory to IDXGIFactory1
+  - DXGI: Implement DxgiSwapChain **(done)**
+  - DXGI: Bump DxgiFactory to IDXGIFactory1 **(done)**
   - DXBC: Support basic vertex and pixel shaders.
   - D3D11: Wire up required features to DXVK
 
