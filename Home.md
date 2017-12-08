@@ -4,14 +4,10 @@ Provides a Vulkan-based implementation of DXGI and D3D11 in order to run 3D appl
 ## Feature support
 DXVK aims to provide support for D3D11, feature level 11_0.
 
-Currently implemented D3D11 features:
-- Device and immediate context creation
-
-Currently implemented in the backend, but not wired up to D3D11 and DXGI yet:
-- Swap chain
-- Shader creation
-- Buffer and image creation
-- Graphics pipeline state objects
-- Draw and dispatch calls
+Currently supported D3D11 features include:
+- Simple vertex and pixel shaders
+- Vertex buffers and index buffers
+- Clearing render target views
+- Indexed and non-indexed draw calls
 
 Short- and mid-term goals are listed in the [Roadmap](https://github.com/doitsujin/dxvk/wiki/Roadmap).
