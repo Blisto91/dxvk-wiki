@@ -12,11 +12,12 @@ In the early stages, development will focus around features required to run basi
   - D3D11: Wire up required features to DXVK **(in progress)**
 
 ## Mid-term goals
-- Implement textures and shader resources
-- Implement pipeline states (blending, etc.) 
+- Implement textures and shader resources **(in progress)**
+- Implement pipeline states (blending, etc.) **(in progress)**
 - Implement UAVs
 - Implement compute shaders
 - Implement query objects
+- Refactor D3D11 and DXGI classes to use COM properly
 - Rewrite memory allocator to sub-allocate from larger pools
 - Don't synchronize immediately after command submission
 
