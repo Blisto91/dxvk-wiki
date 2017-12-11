@@ -15,9 +15,11 @@ Optimize command submission
 - Implement compute shaders
 - Implement query objects
 - Refactor D3D11 and DXGI classes to use COM properly
+- Rewrite DXGI parts that use SDL using pure win32 APIs
 - Rewrite memory allocator to sub-allocate from larger pools
 
 ## Further down the road
+- 32-bit support
 - Implement Geometry Shaders and Stream Output
 - Implement Tessellation Shaders
 
