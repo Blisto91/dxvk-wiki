@@ -14,6 +14,7 @@ Optimize command submission
 - Implement UAVs
 - Implement compute shaders
 - Implement query objects
+- Optimize D3D11 resource mapping to avoid synchronization
 - Refactor D3D11 and DXGI classes to use COM properly
 - Rewrite DXGI parts that use SDL using pure win32 APIs
 - Rewrite memory allocator to sub-allocate from larger pools
