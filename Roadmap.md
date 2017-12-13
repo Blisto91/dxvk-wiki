@@ -20,7 +20,6 @@ Optimize command submission
 - Rewrite memory allocator to sub-allocate from larger pools
 
 ## Further down the road
-- 32-bit support
 - Implement Geometry Shaders and Stream Output
 - Implement Tessellation Shaders
 
