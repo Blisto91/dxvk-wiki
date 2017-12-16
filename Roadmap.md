@@ -6,18 +6,13 @@ Implement enough functionality to run more advanced [tutorials](https://github.c
 - Implement textures and shader resources **(in progress)**
 - Implement pipeline states (blending, etc.) **(done)**
 
-Optimize command submission
-- Don't synchronize immediately after command submission
-- Recycle command lists and staging buffers **(done)**
-
 ## Mid-term goals
 - Implement UAVs
 - Implement compute shaders
 - Implement query objects
-- Optimize D3D11 resource mapping to avoid synchronization **(in progress)**)
+- Optimize D3D11 resource mapping to avoid synchronization **(in progress)**
 - Refactor D3D11 and DXGI classes to use COM properly
 - Rewrite DXGI parts that use SDL using pure win32 APIs
-- Rewrite memory allocator to sub-allocate from larger pools
 
 ## Further down the road
 - Implement Geometry Shaders and Stream Output
