@@ -8,13 +8,13 @@ Implement enough functionality to run more advanced [tutorials](https://github.c
 
 Optimize command submission
 - Don't synchronize immediately after command submission
-- Recycle command lists and staging buffers (**done**)
+- Recycle command lists and staging buffers **(done)**
 
 ## Mid-term goals
 - Implement UAVs
 - Implement compute shaders
 - Implement query objects
-- Optimize D3D11 resource mapping to avoid synchronization
+- Optimize D3D11 resource mapping to avoid synchronization **(in progress)**)
 - Refactor D3D11 and DXGI classes to use COM properly
 - Rewrite DXGI parts that use SDL using pure win32 APIs
 - Rewrite memory allocator to sub-allocate from larger pools
