@@ -15,7 +15,8 @@ Implement enough functionality to run more advanced [tutorials](https://github.c
 - Rewrite DXGI parts that use SDL using pure win32 APIs
 
 ## Further down the road
-- Implement Geometry Shaders and Stream Output
+- Implement Geometry Shaders **(started)**
+- Implement Stream Output
 - Implement Tessellation Shaders
 
 ## Only if needed
