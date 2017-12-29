@@ -2,13 +2,11 @@
 In the early stages, development will focus around features required to run basic D3D11 samples. When the project is more advanced, priorities may shift to getting actual games to work.
 
 ## Immediate goals
-Implement enough functionality to run more advanced [tutorials](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11TutorialsFX11) from the Microsoft SDK.
-- Implement textures and shader resources **(in progress)**
-- Implement pipeline states (blending, etc.) **(done)**
+Implement enough functionality to run most of the [samples](https://github.com/walbourn/directx-sdk-samples/tree/master) from the Microsoft SDK.
+- Implement compute shaders **(in progress)**
+- Implement UAVs **(in progress)**
 
 ## Mid-term goals
-- Implement UAVs
-- Implement compute shaders
 - Implement query objects
 - Optimize D3D11 resource mapping to avoid synchronization **(in progress)**
 - Refactor D3D11 and DXGI classes to use COM properly
@@ -24,3 +22,4 @@ Implement enough functionality to run more advanced [tutorials](https://github.c
 
 ## Completed
 - Implement enough D3D11 and DXGI features to run the [tutorials](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11Tutorials) from the Microsoft SDK. **(done 12-2017)**
+- Implement enough functionality to run more advanced [tutorials](https://github.com/walbourn/directx-sdk-samples/tree/master/Direct3D11TutorialsFX11) from the Microsoft SDK. **(done 12-2017)**
