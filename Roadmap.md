@@ -2,15 +2,14 @@
 In the early stages, development will focus around features required to run basic D3D11 samples. When the project is more advanced, priorities may shift to getting actual games to work.
 
 ## Immediate goals
-Implement enough functionality to run most of the [samples](https://github.com/walbourn/directx-sdk-samples/tree/master) from the Microsoft SDK.
-- Implement compute shaders **(in progress)**
-- Implement UAVs **(in progress)**
+Implement enough functionality to run _Tomb Raider (2013)_ and _Nier: Automata_:
+- Fix handling of unbound D3D11 resources
+- Implement query objects **(started)**
+- Rewrite DXGI parts that use SDL using pure win32 APIs **(started)**
 
 ## Mid-term goals
-- Implement query objects
 - Optimize D3D11 resource mapping to avoid synchronization **(in progress)**
 - Refactor D3D11 and DXGI classes to use COM properly
-- Rewrite DXGI parts that use SDL using pure win32 APIs
 
 ## Further down the road
 - Implement Geometry Shaders **(started)**
