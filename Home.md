@@ -18,9 +18,9 @@ Features that are present, but still incomplete:
 Short- and mid-term goals are listed in the [Roadmap](https://github.com/doitsujin/dxvk/wiki/Roadmap).
 
 ## Screenshots
-![Nier Automata](http://s1.bild.me/bilder/110417/8983866Screenshot_20180102_202827.png)
+![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
 
-_Nier: Automata as of 2018-01-02, on an AMD A10-7350B mobile APU. The game is not yet playable._
+_Nier: Automata as of 2018-01-13, on an AMD RX 480_
 
 ![Cascading Shadow Map demo](http://s1.bild.me/bilder/110417/3869421Bildschirmfoto-355.png)
 
