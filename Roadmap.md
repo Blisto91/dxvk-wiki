@@ -1,14 +1,12 @@
 # Roadmap
-In the early stages, development will focus around features required to run basic D3D11 samples. When the project is more advanced, priorities may shift to getting actual games to work.
 
 ## Immediate goals
 Implement enough functionality to run _Tomb Raider (2013)_ and _Nier: Automata_:
-- Fix handling of unbound D3D11 resources
+- Fix handling of unbound D3D11 resources **(in progress)**
 - Implement query objects **(started)**
-- Rewrite DXGI parts that use SDL using pure win32 APIs **(started)**
+- Rewrite DXGI parts that use SDL using pure win32 APIs **(done)**
 
 ## Mid-term goals
-- Optimize D3D11 resource mapping to avoid synchronization **(in progress)**
 - Refactor D3D11 and DXGI classes to use COM properly
 
 ## Further down the road
