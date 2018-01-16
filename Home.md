@@ -11,9 +11,7 @@ Features that are still missing:
 
 Features that are present, but still incomplete:
 - Resource copies and resolve operations
-- Unordered Access Views, esp. append/consume buffers
 - Shader support, esp. system values
-- Swap chain management, esp. fullscreen mode
 
 Short- and mid-term goals are listed in the [Roadmap](https://github.com/doitsujin/dxvk/wiki/Roadmap).
 
