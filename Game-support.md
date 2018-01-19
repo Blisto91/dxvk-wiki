@@ -1,5 +1,3 @@
-# Game support
-
 The table below lists games and applications that were successfully tested with DXVK.
 
 | Game                       | Since version | Notes                                        |
