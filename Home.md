@@ -13,8 +13,6 @@ Features that are present, but still incomplete:
 - Resource copies and resolve operations
 - Shader support, esp. system values
 
-Short- and mid-term goals are listed in the [Roadmap](https://github.com/doitsujin/dxvk/wiki/Roadmap).
-
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
 
