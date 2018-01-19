@@ -1,8 +1,9 @@
 ## AMD RADV
-- **Version 17.3.2** and older: Games may fail to render certain geometry, crash, or cause GPU hangs due to a [bug](https://bugs.freedesktop.org/show_bug.cgi?id=104677) related to vertex input. **Workaround:** Use mesa-git.
+- Developing and testing is mostly done on stable revisions of Mesa / RADV.
+- **Version 17.3.2** and older: Some games may fail to render certain geometry, crash, or cause GPU hangs due to a [bug](https://bugs.freedesktop.org/show_bug.cgi?id=104677) related to vertex input. **Workaround:** Use mesa-git.
 - **Version 17.3.99**: Games may not render shadows correctly. **Workaround:** `export RADV_DEBUG=nohiz`
 
-## AMD amdvlk / AMD on Windows
+## AMD amdvlk
 - Crashes in the shader compiler. **Reason:** Unknown.
 
 ## Intel ANV
