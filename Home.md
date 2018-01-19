@@ -18,8 +18,8 @@ Short- and mid-term goals are listed in the [Roadmap](https://github.com/doitsuj
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
 
-_Nier: Automata as of 2018-01-13, on an AMD RX 480_
+_Nier: Automata as of version 0.20, on an AMD RX 480_
 
-![Cascading Shadow Map demo](http://s1.bild.me/bilder/110417/3869421Bildschirmfoto-355.png)
+![Unigine Valley](https://i.imgur.com/mMBQWiB.png)
 
-_Cascading shadow map demo from the Microsoft SDK, running on the open-source RADV Vulkan driver on an AMD RX 480._
+_Unigine Valley as of version 0.21_
