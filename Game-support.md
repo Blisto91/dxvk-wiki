@@ -2,7 +2,7 @@ The table below lists games and applications that were tested with DXVK. Note th
 
 | Game                       | Status   | Since version | Notes                                        |
 |----------------------------|----------|---------------|----------------------------------------------|
-| Homefront                  | Testing  |               | Renders incorrectly                          |
+| Homefront                  | Testing  |               | Requires Mesa-git, poor performance          |
 | Nier: Automata             | Playable | v0.20         | Anti-Aliasing (MSAA) not supported           |
 | Rise of the Tomb Raider    | Testing  |               | Renders incorrectly, poor performance        |
 | Tomb Raider (2013)         | Testing  |               | Requires Mesa-git, not all options supported |
