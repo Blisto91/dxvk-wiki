@@ -1,4 +1,4 @@
-The table below lists games and applications that were successfully tested with DXVK.
+The table below lists games and applications that were tested with DXVK. Note that the project is still in an early stage of development, and games not listed below should not be expected to work.
 
 | Game                       | Status   | Since version | Notes                                        |
 |----------------------------|----------|---------------|----------------------------------------------|
