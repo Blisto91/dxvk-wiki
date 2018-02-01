@@ -5,7 +5,7 @@
 - **Vega GPUs:** Freezes.
 
 ## AMD amdvlk
-- Crashes in the shader compiler. **Reason:** Unknown.
+- Sometimes crashes in the shader compiler. **Reason:** Unknown.
 - Incorrect rendering in some games. **Reason:** Unknown.
 
 ## Intel ANV
@@ -13,4 +13,4 @@
 - Does not support `shaderStorageImageReadWithoutFormat`, which is required for Unordered Access views.
 
 ## Nvidia
-- Crashes in the shader compiler. **Reason:** Unknown.
+- Frequently crashes in the shader compiler. **Reason:** Unknown.
