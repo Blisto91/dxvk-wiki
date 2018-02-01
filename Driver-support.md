@@ -6,6 +6,7 @@
 
 ## AMD amdvlk
 - Crashes in the shader compiler. **Reason:** Unknown.
+- Incorrect rendering in some games. **Reason:** Unknown.
 
 ## Intel ANV
 - Does not support depth bounds, which are currently listed as a required feature. Workaround possible.
