@@ -13,4 +13,4 @@
 - Does not support `shaderStorageImageReadWithoutFormat`, which is required for Unordered Access views.
 
 ## Nvidia
-- Frequently crashes in the shader compiler. **Reason:** Unknown.
+- Frequently crashes in the shader compiler. Try [vesim987/dxvk](https://github.com/vesim987/dxvk/) until the issue is fixed.
