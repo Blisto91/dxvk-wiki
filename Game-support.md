@@ -2,11 +2,14 @@ The table below lists games and applications that were tested with DXVK. Note th
 
 | Game                       | Status   | Since version | Notes                                        |
 |----------------------------|----------|---------------|----------------------------------------------|
+| Cities: Skylines           | Testing  |               | Occationally crashes when zoomed in          |
 | Homefront                  | Testing  |               |                                              |
+| Megadimension Neptunia VII | Testing  |               | Depth of Field not working, RADV issues      |
 | Nier: Automata             | Playable | v0.20         |                                              |
 | Offworld Trading Company   | Testing  |               |                                              |
 | Ori and the Blind Forest   | Testing  |               |                                              |
 | Rise of the Tomb Raider    | Testing  |               | Renders incorrectly, poor performance        |
+| Thief (2014)               | Testing  |               | Some options not working, poor performance   |
 | Tomb Raider (2013)         | Testing  |               | Requires Mesa-git, not all options supported |
 | Unigine Heaven Benchmark   | Working  | v0.21         | Tessellation not supported                   |
 | Unigine Valley Benchmark   | Working  | v0.21         |                                              |
