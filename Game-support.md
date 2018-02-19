@@ -3,6 +3,7 @@ The table below lists games and applications that were tested with DXVK. Note th
 | Game                       | Status   | Since version | Notes                                        |
 |----------------------------|----------|---------------|----------------------------------------------|
 | Cities: Skylines           | Testing  |               | Occationally crashes when zoomed in          |
+| Elder Scrolls Online       | Playable | master        | Requires mesa-git for Vega GPUs              |
 | Homefront                  | Testing  |               |                                              |
 | Megadimension Neptunia VII | Testing  |               | Depth of Field not working, RADV issues      |
 | Nier: Automata             | Playable | v0.20         |                                              |
