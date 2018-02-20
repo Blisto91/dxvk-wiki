@@ -10,6 +10,7 @@ The table below lists games and applications that were tested with DXVK. Note th
 | Offworld Trading Company   | Testing  |               |                                              |
 | Ori and the Blind Forest   | Testing  |               |                                              |
 | Rise of the Tomb Raider    | Testing  |               | Renders incorrectly, poor performance        |
+| Sniper Elite V2            | Testing  |               |                                              |
 | Thief (2014)               | Testing  |               | Some options not working, poor performance   |
 | Tomb Raider (2013)         | Testing  |               | Requires Mesa-git, not all options supported |
 | Unigine Heaven Benchmark   | Working  | v0.21         | Tessellation not supported                   |
