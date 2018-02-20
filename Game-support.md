@@ -15,5 +15,5 @@ The table below lists games and applications that were tested with DXVK. Note th
 | The Witcher 3              | Bad      |               | Renders incorrectly, freezes on RADV         |
 | Thief (2014)               | Testing  |               | Extremely poor performance                   |
 | Tomb Raider (2013)         | Partial  |               | Post processing option causes freeze/crash   |
-| Unigine Heaven Benchmark   | Working  | v0.21         | Tessellation not supported                   |
+| Unigine Heaven Benchmark   | Partial  | v0.21         | Tessellation not supported                   |
 | Unigine Valley Benchmark   | Working  | v0.21         |                                              |
