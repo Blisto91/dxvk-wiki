@@ -9,7 +9,6 @@
 - Incorrect rendering in some games. **Reason:** Unknown.
 
 ## Intel ANV
-- Does not support depth bounds, which are currently listed as a required feature. Workaround possible.
 - Does not support `shaderStorageImageReadWithoutFormat`, which is required for Unordered Access views.
 
 ## Nvidia
