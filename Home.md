@@ -5,12 +5,12 @@ Provides a Vulkan-based compatibility layer for DXGI and D3D11, which may be use
 DXVK aims to provide support for D3D11, feature level 11_0.
 
 Features that are still missing:
+- Predication
 - Tessellation
 - Stream output
 
 Features that are present, but still incomplete:
-- Shader support, esp. system values
-- Predication
+- Geometry shaders
 
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
