@@ -11,6 +11,7 @@ Features that are still missing:
 
 Features that are present, but still incomplete:
 - Geometry shaders
+- Unordered Access View operations
 
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
