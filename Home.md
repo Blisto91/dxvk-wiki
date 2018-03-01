@@ -7,11 +7,10 @@ DXVK aims to provide support for D3D11, feature level 11_0.
 Features that are still missing:
 - Tessellation
 - Stream output
-- Queries
 
 Features that are present, but still incomplete:
-- Resource copies and resolve operations
 - Shader support, esp. system values
+- Predication
 
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
