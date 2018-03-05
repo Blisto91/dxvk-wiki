@@ -11,4 +11,4 @@
 
 ## Nvidia
 - Occational crashes in the shader compiler. **Reason:** Driver issues and bugs in the DXBC->SPIR-V translation.
-- Kepler cards (GTX 600 and 700 series cards) do not expose feature level `11_0` due to missing support for `shaderStorageImageReadWithoutFormat`.
+- Kepler cards (GTX 600 and 700 series) do not expose feature level `11_0` due to missing support for `shaderStorageImageReadWithoutFormat`.
