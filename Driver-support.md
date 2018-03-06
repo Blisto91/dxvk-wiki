@@ -1,6 +1,7 @@
 ## AMD RADV
 - Development and testing mostly happens on stable revisions of Mesa / RADV.
 - **Version 17.3.3** and newer: Games may not render shadows correctly or may not render anything at all. **Workaround:** `export RADV_DEBUG=nohiz`
+- **Vega GPUs:** Not supported.
 
 ## AMD amdvlk
 - Sometimes crashes in the shader compiler. **Reason:** Possibly bugs in the DXBC->SPIR-V translation.
