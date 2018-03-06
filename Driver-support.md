@@ -1,11 +1,10 @@
 ## AMD RADV
 - Development and testing mostly happens on stable revisions of Mesa / RADV.
 - **Version 17.3.3** and newer: Games may not render shadows correctly or may not render anything at all. **Workaround:** `export RADV_DEBUG=nohiz`
-- **Vega GPUs:** Not supported.
+- **Vega GPUs:** Not supported. Use wined3d instead.
 
-## AMD amdvlk
-- Sometimes crashes in the shader compiler. **Reason:** Possibly bugs in the DXBC->SPIR-V translation.
-- Incorrect rendering in some games. **Reason:** Unknown.
+## AMD amdvlk (do not use)
+- Not supported. Use RADV on AMD cards.
 
 ## Intel ANV
 - Does not support `shaderStorageImageReadWithoutFormat`, which is required for Unordered Access views.
