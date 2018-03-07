@@ -6,10 +6,10 @@ DXVK aims to provide support for D3D11, feature level 11_0.
 
 Features that are still missing:
 - Predication
-- Tessellation
 - Stream output
 
 Features that are present, but still incomplete:
+- Tessellation
 - Geometry shaders
 - Unordered Access View operations
 
