@@ -11,4 +11,4 @@
 - Does not support `shaderStorageImageReadWithoutFormat`, which is required for Unordered Access views.
 
 ## AMD amdvlk
-- Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards.
+- Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards instead.
