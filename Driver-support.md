@@ -1,6 +1,6 @@
 ## AMD RADV
-- Development and testing mostly happens on stable revisions of Mesa / RADV.
-- **Version 17.3.3** and newer: Games may not render shadows correctly or may not render anything at all. **Workaround:** `export RADV_DEBUG=nohiz`
+- **Frequent GPU hangs** can be experienced when using LLVM 6.0.0.
+- **Version 17.3** and older: Not supported. Several important bugs that affect DXVK have been fixed in more recent development branches (18.0 and 18.1).
 - **Vega GPUs:** Not supported, and any issues with Vega GPUs will be ignored. Use wined3d instead.
 
 ## Nvidia
