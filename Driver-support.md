@@ -6,5 +6,8 @@
 ## Nvidia
 - Occational crashes in the shader compiler. **Reason:** Driver issues and bugs in the DXBC->SPIR-V translation.
 
+## Intel ANV
+- Mostly untested, expect issues.
+
 ## AMD amdvlk
 - Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards instead.
