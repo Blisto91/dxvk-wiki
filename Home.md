@@ -9,9 +9,7 @@ Features that are still missing:
 - Stream output
 
 Features that are present, but still incomplete:
-- Tessellation
-- Geometry shaders
-- Unordered Access View operations
+- Some Unordered Access View operations
 
 ## Screenshots
 ![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
