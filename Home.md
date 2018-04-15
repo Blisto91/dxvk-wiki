@@ -1,6 +1,8 @@
 # DXVK
 Provides a Vulkan-based compatibility layer for DXGI and D3D11, which may be used to run 3D applications on Linux using Wine.
 
+Please note that this is still in the early stages of development, **most games are not expected to work**.
+
 ## Feature support
 DXVK aims to provide support for D3D11, feature level 11_0.
 
