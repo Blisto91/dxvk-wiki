@@ -1,6 +1,6 @@
 ## AMD RADV
 - **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252))
-- **Version 17.3** and older: Not supported. Several important bugs that affect DXVK have been fixed in 18.0 and recent development branches (18.1).
+- **Version 18.0** and older: Not supported. Several important bugs that affect DXVK have been fixed in 18.1 and later.
 
 ## Nvidia
 - **387.xx** and older: Not supported, please use a newer driver.
