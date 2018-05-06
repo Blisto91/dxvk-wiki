@@ -3,9 +3,7 @@
 - **Version 18.0** and older: Not supported. Several important bugs that affect DXVK have been fixed in 18.1 and later.
 
 ## Nvidia
-- **387.xx** and older: Not supported, please use a newer driver.
-- **390.xx**: Occational crashes in the shader compiler caused by driver issues and bugs in the DXBC->SPIR-V translation.
-- **396.18**: Poor performance and visual issues in some games (see [Issue #267](https://github.com/doitsujin/dxvk/issues/267)).
+- **390.xx** and older: Not supported, please use at least 396.24.00.
 
 ## Intel ANV
 - Mostly untested, expect issues.
