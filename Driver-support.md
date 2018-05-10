@@ -4,6 +4,7 @@
 
 ## Nvidia
 - **390.xx** and older: Not supported, please use at least 396.18.07.
+- **Do not** set `__GL_NextGenCompiler=0`.
 
 ## Intel ANV
 - Mostly untested, expect issues.
