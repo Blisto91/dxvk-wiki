@@ -7,12 +7,3 @@ DXVK aims to provide support for D3D11, feature level 11_0.
 Features that are still missing:
 - Predication
 - Stream output
-
-## Screenshots
-![Nier Automata](http://s1.bild.me/bilder/110417/9133013Bildschirmfoto-377.png)
-
-_Nier: Automata as of version 0.20, on an AMD RX 480_
-
-![Unigine Heaven](https://i.imgur.com/gXQDE8z.png)
-
-_Unigine Heaven as of version 0.31_
