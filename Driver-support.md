@@ -10,5 +10,5 @@
 ## Intel ANV
 - Mostly untested, expect issues.
 
-## AMD amdvlk
+## AMD amdvlk / AMDGPU-PRO
 - Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards instead.
