@@ -3,7 +3,7 @@
 - **Version 18.0** and older: Not supported. Several important bugs that affect DXVK have been fixed in 18.1 and later.
 
 ## Nvidia
-- **390.xx** and older: Not supported, please use at least 396.18.07.
+- **390.xx** and older: Not supported, please use at least 396.24.02.
 - **Do not** set `__GL_NextGenCompiler=0` for regular use.
 - Some games may freeze at high frame rates. **Workaround:** Disable *Allow Flipping* in the Nvidia driver settings.
 
