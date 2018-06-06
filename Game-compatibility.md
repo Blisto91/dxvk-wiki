@@ -46,7 +46,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Final Fantasy XIV                     |                                      |
 | Flame in the Flood                    |                                      |
 | Frostpunk                             | 0.53                                 |
-| Grand Theft Auto V                    | 0.53                                 |
 | Hearthstone: Heroes of Warcraft       | 0.53                                 |
 | Hellblade: Senua's Sacrifice          |                                      |
 | Heroes of the Storm                   | 0.53                                 |
