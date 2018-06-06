@@ -41,7 +41,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Far Cry 3                             | 0.53                                 | Poor performance with >4 CPU cores
 | Far Cry 3: Blood Dragon               | 0.53                                 |
 | Far Cry 4                             | 0.53                                 |
-| Far Cry 5                             | 0.53                                 | Requires Denuvo workaround. Steering does not work in cars, quads, jetskis, or boats.
 | Far Cry Primal                        | 0.53                                 |
 | F.E.A.R. 3                            |                                      |
 | Final Fantasy XIV                     |                                      |
