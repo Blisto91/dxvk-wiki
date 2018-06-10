@@ -6,7 +6,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Agony                                       | FC85738                              |
 | Ancestors Legacy                            | 0.54                                 |
 | Anno 2070                                   |                                      |
-| ArcheAge                                    |                                      |
 | Assassin's Creed IV: Black Flag             |                                      |
 | Assassin's Creed Rogue                      |                                      |
 | Assassin's Creed Unity                      |                                      |
@@ -40,8 +39,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | ELEX                                        |                                      |
 | Evolve Stage 2                              |                                      |
 | Fallout 4                                   | 0.53                                 | Requires [dsound and LOD Wine patches](https://github.com/lutris/buildbot/blob/master/runners/wine/patches/fallout4.patch)
-| Far Cry 3                                   | 0.53                                 | Poor performance with >4 CPU cores
-| Far Cry 3: Blood Dragon                     | 0.53                                 |
 | Far Cry 4                                   | 0.53                                 |
 | Far Cry Primal                              | 0.53                                 |
 | F.E.A.R. 3                                  |                                      |
