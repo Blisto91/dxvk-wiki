@@ -1,5 +1,5 @@
 ## AMD RADV
-- **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252))
+- **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252)). Most of these issues have been resolved in the latest development versions of Mesa and LLVM.
 - **Version 18.0** and older: Not supported. Several important bugs that affect DXVK have been fixed in 18.1 and later.
 
 ## Nvidia
