@@ -26,7 +26,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Crysis 3                                    |                                      |
 | Cursed Forest                               | 0.53                                 |
 | Dark Souls II: Scholar of the First Sin     |                                      |
-| Dark Souls III                              |                                      |
 | Dead Rising 4                               | 0.54                                 | Requires [kernel32 Wine patch](https://gist.github.com/GloriousEggroll/c065a348f5f93b5be9e534c8995f1446)
 | Deep Rock Galactic                          | 0.53                                 |
 | Deus Ex: Human Revolution                   | 0.42                                 |
@@ -48,7 +47,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | F.E.A.R. 3                                  |                                      |
 | Final Fantasy XIV                           | 0.54                                 | Exclude `0001-server-Improve-handling-of-hooks-for-normal-non-inje` patch if using Wine Staging
 | Flame in the Flood                          |                                      |
-| Grand Theft Auto V                          | 0.54                                 |
 | GRID 2 Reloaded                             | E35CBF8                              |
 | Hearthstone: Heroes of Warcraft             | 0.53                                 |
 | Hellblade: Senua's Sacrifice                | 0.54                                 |
@@ -88,7 +86,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Sword Art Online: Fatal Bullet              |                                      |
 | Tekken 7                                    |                                      |
 | Totally Accurate Battlegrounds              | 0.54                                 |
-| The Crew                                    |                                      |
 | The Elder Scrolls: Legends                  | 0.54                                 |
 | The Evil Within                             |                                      |
 | The Evil Within 2                           |                                      |
@@ -100,7 +97,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Vampyr                                      | 1FDCBDF                              |
 | Warframe                                    | 0.53                                 |
 | Warhammer End Times: Vermintide             | 0.53                                 |
-| Watch_Dogs                                  | 0.53                                 |
 | What Remains of Edith Finch                 |                                      |
 | World of Warcraft                           | 0.53                                 | Requires `DXVK_FAKE_DX10_SUPPORT=1`
 | World of Warships                           | 0.53                                 |
