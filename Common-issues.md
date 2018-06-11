@@ -38,7 +38,7 @@ On arch linux: `sudo pacman -S vulkan-radeon lib32-vulkan-radeon`
 If you've got `DxvkSurface::createSurface: Surface not supported by device` and messages about both Intel HD graphics and your dedicated graphics card in the dxgi log, your integrated graphics drivers might be causing issues. Run your game with `VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/radeon_icd.x86_64.json` for AMD 64 bit or with `VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json` for nvidia.
 
 ### GPU hangs
-Games hanging the entire system is a somewhat common occurence on AMD cards. These are driver issues that will hopefully be fixed in the future. Using the latest mesa-git with the latest llvm-svn may fix your hang. See https://github.com/doitsujin/dxvk/issues/252
+Games hanging the entire system is a somewhat common occurence on AMD cards. These are driver issues that will be fixed in future releases. Using the latest mesa-git with the latest llvm-svn may fix your hang. See https://github.com/doitsujin/dxvk/issues/252
 
 ## Graphical issues
 ### Drivers
@@ -50,6 +50,13 @@ If your d3d11 log contains one of these lines, do not open a new issue, but post
 err:   D3D11Device::CreateBuffer: D3D11_BIND_STREAM_OUTPUT not supported
 err:   D3D11Device::CreateGeometryShaderWithStreamOutput: Not implemented
 ```
+
+
+## Performance
+
+When experiencing unexpectedly low performance, try setting the CPU governor to `performance`. This is a general recommendation for native OpenGL and Vulkan games as well.
+
+Some games, such as Far Cry 3, will run poorly on CPUs with more than four threads. Currently, the only known workaround is to disable all but four CPU cores prior to launching the game.
 
 ## Reporting an issue
 First off, make sure the issue you're experiencing has not yet been reported by someone else.
