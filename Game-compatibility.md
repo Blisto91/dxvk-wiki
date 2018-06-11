@@ -25,7 +25,7 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Crysis 3                                    |                                      |
 | Cursed Forest                               | 0.53                                 |
 | Dark Souls II: Scholar of the First Sin     |                                      |
-| Dead Rising 4                               | 0.54                                 | Requires [kernel32 Wine patch](https://gist.github.com/GloriousEggroll/c065a348f5f93b5be9e534c8995f1446)
+| Dead Rising 4                               | 0.54                                 | 
 | Deep Rock Galactic                          | 0.53                                 |
 | Deus Ex: Human Revolution                   | 0.42                                 |
 | Diablo III                                  | 0.54                                 | Requires 64-bit and Wine Staging
@@ -38,7 +38,7 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Elder Scrolls Online                        |                                      |
 | ELEX                                        |                                      | Does not work with wine-staging
 | Evolve Stage 2                              |                                      |
-| Fallout 4                                   | 0.53                                 | Requires [dsound and LOD Wine patches](https://github.com/lutris/buildbot/blob/master/runners/wine/patches/fallout4.patch)
+| Fallout 4                                   | 0.53                                 | Requires [dsound patch](https://github.com/lutris/buildbot/blob/master/runners/wine/patches/fallout4.patch)
 | Far Cry 4                                   | 0.53                                 |
 | Far Cry Primal                              | 0.53                                 |
 | F.E.A.R. 3                                  |                                      |
