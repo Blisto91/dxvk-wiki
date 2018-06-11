@@ -17,6 +17,10 @@ First, look for the dxvk log files called `game_d3d11.log` and `game_dxgi.log` t
 
 Second, run the game with wined3d: `WINEDLLOVERRIDES="d3d11,dxgi=b" wine game.exe` . If the game crashes in the exact same manner as dxvk, it is most likely a wine bug, not a dxvk bug.
 
+### 32-bit games
+
+32-bit games often run out of address space with DXVK and will crash as a result. Use wined3d for 32-bit games instead.
+
 ### Vulkan errors
 If you see `DxvkInstance: Failed to create instance` in the dxgi log file, there's something wrong with your vulkan setup. 
 
