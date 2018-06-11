@@ -51,11 +51,8 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Homefront                                   |                                      |
 | Homefront the Revolution                    |                                      |
 | Just Cause 3                                |                                      |
-| Kingdom Come: Deliverance                   |                                      |
 | Max Payne 3                                 |                                      |
 | Megadimension Neptunia VII                  |                                      | Requires `devenum quartz wmp10` installed via winetricks
-| Metal Gear Solid V: Ground Zeroes           |                                      |
-| Metal Gear Solid V: The Phantom Pain        |                                      |
 | Mirror's Edge Catalyst                      |                                      |
 | Mortal Kombat X                             | 0.54                                 | Stutters due to shader compilation
 | NBA 2K15                                    |                                      |
@@ -76,7 +73,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Session Demo v002                           | 0.54                                 |
 | Skyrim: Special Edition                     |                                      | Requires xact installed via winetricks and xaudio2_7 set to native in winecfg
 | Shape of the World                          | 0.53                                 |
-| Sleeping Dogs Definitive Edition            | 0.54                                 | Requires `DXVK_FAKE_DX10_SUPPORT=1`
 | Sniper Elite: Nazi Zombie Army 2            |                                      |
 | Snow                                        |                                      |
 | Sonic Forces                                |                                      |
