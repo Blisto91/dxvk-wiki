@@ -36,7 +36,6 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Dungeons & Dragons: Chronicles of Mystara   | 0.54                                 | Requires `xact` installed via winetricks
 | EARTH DEFENSE FORCE 4.1                     |                                      |
 | Elder Scrolls Online                        |                                      |
-| ELEX                                        |                                      | Does not work with wine-staging
 | Evolve Stage 2                              |                                      |
 | Fallout 4                                   | 0.53                                 | Requires [dsound patch](https://github.com/lutris/buildbot/blob/master/runners/wine/patches/fallout4.patch)
 | Far Cry 4                                   | 0.53                                 |
