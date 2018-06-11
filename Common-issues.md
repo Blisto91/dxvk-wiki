@@ -19,7 +19,7 @@ Second, run the game with wined3d: `WINEDLLOVERRIDES="d3d11,dxgi=b" wine game.ex
 
 ### 32-bit games
 
-32-bit games often run out of address space with DXVK and will crash as a result. Use wined3d for 32-bit games instead.
+32-bit games often run out of address space and will crash as a result. This is an inherent limitation of DXVK and cannot be fixed. Use wined3d for 32-bit games instead.
 
 ### Vulkan errors
 If you see `DxvkInstance: Failed to create instance` in the dxgi log file, there's something wrong with your vulkan setup. 
