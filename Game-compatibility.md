@@ -63,9 +63,7 @@ Below is a list of games that have been known to run reasonably well, with no or
 | Pro Evolution Soccer 2018                   |                                      |
 | Prey                                        |                                      |
 | Project Cars                                |                                      |
-| Quake Champions                             | 0.53                                 |
 | Raft                                        | 2173999                              |
-| Realm Royale                                | 0.54                                 | Low res textures even when settings are maxed
 | Red Faction: Armageddon                     |                                      |
 | Red Faction: Guerilla                       |                                      |
 | Seven Days Long Gone                        |                                      |
