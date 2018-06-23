@@ -44,6 +44,11 @@ If you've got `DxvkSurface::createSurface: Surface not supported by device` and 
 ### GPU hangs
 Games hanging the entire system is a somewhat common occurence on AMD cards. These are driver issues that will be fixed in future releases. Using the latest mesa-git with the latest llvm-svn may fix your hang. See https://github.com/doitsujin/dxvk/issues/252
 
+### NVAPI
+Some games ,ay use `nvapi.dll` or `nvapi64.dll` when detecting an Nvidia GPU. The wine-staging implementation of these DLLs does not work with DXVK and should be disabled in winecfg, or otherwise games may crash or suffer from visual issues.
+
+Some games assume that `nvapi` is present regardless. In this case, spoofing an AMD GPU using the `DXVK_CUSTOM_VENDOR_ID` environment variable may help.
+
 ## Graphical issues
 ### Drivers
 Take a look at the drivers section and make sure they are up-to-date.
@@ -54,7 +59,6 @@ If your d3d11 log contains one of these lines, do not open a new issue, but post
 err:   D3D11Device::CreateBuffer: D3D11_BIND_STREAM_OUTPUT not supported
 err:   D3D11Device::CreateGeometryShaderWithStreamOutput: Not implemented
 ```
-
 
 ## Performance
 
