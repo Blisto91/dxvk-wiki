@@ -45,7 +45,7 @@ If you've got `DxvkSurface::createSurface: Surface not supported by device` and 
 Games hanging the entire system is a somewhat common occurence on AMD cards. These are driver issues that will be fixed in future releases. Using the latest mesa-git with the latest llvm-svn may fix your hang. See https://github.com/doitsujin/dxvk/issues/252
 
 ### NVAPI
-Some games ,ay use `nvapi.dll` or `nvapi64.dll` when detecting an Nvidia GPU. The wine-staging implementation of these DLLs does not work with DXVK and should be disabled in winecfg, or otherwise games may crash or suffer from visual issues.
+Some games may use `nvapi.dll` or `nvapi64.dll` when detecting an Nvidia GPU. The wine-staging implementation of these DLLs does not work with DXVK and should be disabled in winecfg, or otherwise games may crash or suffer from visual issues.
 
 Some games assume that `nvapi` is present regardless. In this case, spoofing an AMD GPU using the `DXVK_CUSTOM_VENDOR_ID` environment variable may help.
 
