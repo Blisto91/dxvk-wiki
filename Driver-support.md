@@ -8,7 +8,7 @@
 - Some games may freeze at high frame rates. **Workaround:** Disable *Allow Flipping* in the Nvidia driver settings.
 
 ## Intel ANV
-- Rarely tested, please report any issues you run into with this driver.
+- Rarely tested. Please use `mesa-git` when testing this driver, and report any issues you run into.
 
 ## AMD amdvlk / AMDGPU-PRO
 - Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards instead.
