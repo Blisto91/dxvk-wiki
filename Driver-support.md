@@ -1,5 +1,5 @@
 ## AMD RADV
-- **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252)). Most of these issues have been resolved in Mesa 18.1.2.
+- **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252)). Most of these issues have been resolved in Mesa 18.1.2 and LLVM 7.0-svn.
 - **Minimum driver version:** 18.1.2
 
 ## Nvidia
