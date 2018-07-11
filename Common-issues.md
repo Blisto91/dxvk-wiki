@@ -12,14 +12,6 @@ update-alternatives --config x86_64-w64-mingw32-g++
 
 On gentoo: see https://github.com/doitsujin/dxvk/issues/184
 
-## Games complain about missing D3D11 support
-In this case, it is likely that DXVK fails to load. Possible reasons include:
-- DXVK is not set up correctly and the game does not find the DLLs. Make sure to set up **both** 64-bit and 32-bit DXVK in the same Wine prefix.
-- No Vulkan loader or driver is installed for the target architecture. Make sure to install both the respective 64-bit and 32-bit packages.
-- Your [Vulkan driver](https://github.com/doitsujin/dxvk/wiki/Driver-support) is outdatd, or your hardware/driver does not support the necessary set of features and extensions.
-
-**Note:** Some games, such as World of Warcraft, may work when setting `DXVK_FAKE_DX10_SUPPORT=1`.
-
 ## Crashes
 First, look for the dxvk log files called `game_d3d11.log` and `game_dxgi.log` that should be in the same directory as the game executable. If you can't find these log files, that means dxvk wasn't used and you probably made a mistake in setting up dxvk or the game didn't use d3d11.
 
@@ -71,6 +63,14 @@ If your d3d11 log contains one of these lines, do not open a new issue, but post
 err:   D3D11Device::CreateBuffer: D3D11_BIND_STREAM_OUTPUT not supported
 err:   D3D11Device::CreateGeometryShaderWithStreamOutput: Not implemented
 ```
+
+## Errors about missing D3D11 support
+In this case, it is likely that DXVK fails to load. Possible reasons include:
+- DXVK is not set up correctly and the game does not find the DLLs. Make sure to set up **both** 64-bit and 32-bit DXVK in the same Wine prefix.
+- No Vulkan loader or driver is installed for the target architecture. Make sure to install both the respective 64-bit and 32-bit packages.
+- Your [Vulkan driver](https://github.com/doitsujin/dxvk/wiki/Driver-support) is outdatd, or your hardware/driver does not support the necessary set of features and extensions.
+
+**Note:** Some games, such as World of Warcraft, may work when setting `DXVK_FAKE_DX10_SUPPORT=1`.
 
 ## Performance
 
