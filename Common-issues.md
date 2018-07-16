@@ -84,6 +84,9 @@ First off, make sure the issue you're experiencing has not yet been reported by 
 ### Audio issues
 DXVK does not interact with audio and audio issues are most likely not dxvk related. In general running `winetricks xact` fixes a lot of audio issues in wine.
 
+### Input issues
+While DXVK is not involved in handling mouse or keyboard input in any way, a lot of games seem to have issues which do not occur with wined3d. The reason for this is unknown, but lies likely within DXVK's implementation of `IDXGISwapChain`.
+
 ### Validation layers
 It might be useful to run the game with `WINEDEBUG=-all VK_INSTANCE_LAYERS=VK_LAYER_LUNARG_standard_validation wine game.exe` and attach the terminal output to your issue. This requires the `vulkan-validation-layers` package on arch linux to be installed.
 
