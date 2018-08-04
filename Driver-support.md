@@ -3,7 +3,7 @@
 - **Recommended driver version:** 18.1.3
 
 ## Nvidia
-- **Recommended driver version:** 396.45
+- **Recommended driver version:** 396.51
 - **Do not** set `__GL_NextGenCompiler=0` for regular use.
 
 ## Intel ANV
