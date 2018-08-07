@@ -74,4 +74,21 @@ The following configuration example documents all the options that are currently
 # - Overwatch
 
 # d3d11.fakeStreamOutSupport = False
+
+
+# Allow allocating more device memory from a Vulkan heap than the heap
+# provides. May in some cases improve performance in low-memory conditions.
+#
+# Supported values: True, False
+
+# dxvk.allowMemoryOvercommit = False
+
+
+# Use asynchronous pipeline compilation with DISABLE_OPTIMIZATION_BIT.
+# This may reduce shader compiler stutter. Currently only supported on
+# RADV. May cause issues.
+#
+# Supported values: True, False
+
+# dxvk.useAsyncPipeCompiler = False
 ```
