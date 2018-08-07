@@ -1,5 +1,4 @@
-# Configuration
-Some applications may require quirks in order to run or improve performance. While DXVK enables some of them by default if necessary, they can be overridden by using a configuration file. **Note that overriding the default options may cause issues!**
+Some applications may require quirks in order to run or improve performance. While DXVK enables some of them by default if necessary, they can be overridden by using a configuration file. **Note that overriding the default options is usually not necessary and may cause issues!**
 
 ## Configuration file
 By default, DXVK will try to load `dxvk.conf` from the current working directory, i.e. the directory where the log files will be created. This is usually the same directory where the game exe is located.
