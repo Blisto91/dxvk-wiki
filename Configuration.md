@@ -47,6 +47,15 @@ The following configuration example documents all the options that are currently
 # dxgi.maxFrameLatency = 0
 
 
+# Override PCI vendor and device IDs reported to the application. Can
+# cause the app to adjust behaviour depending on the selected values.
+#
+# Supported values: Any four-digit hex number.
+
+# dxgi.customDeviceId = 0000
+# dxgi.customVendorId = 0000
+
+
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
 # is called. Enabling this can potentially improve performance, but breaks
 # games which do not expect Map() to return an error despite using the flag.
