@@ -51,7 +51,7 @@ Games hanging the entire system is a somewhat common occurence on AMD cards. The
 ### NVAPI
 Some games may use `nvapi.dll` or `nvapi64.dll` when detecting an Nvidia GPU. The wine-staging implementation of these DLLs does not work with DXVK and should be disabled in winecfg, or otherwise games may crash or suffer from visual issues.
 
-Some games assume that `nvapi` is present regardless. In this case, spoofing an AMD GPU using the `DXVK_CUSTOM_VENDOR_ID` environment variable may help.
+Some games assume that `nvapi` is present regardless. In this case, spoofing an AMD GPU using the `dxgi.customVendorId` configuration option may help.
 
 ## Graphical issues
 ### Drivers
@@ -70,7 +70,7 @@ In this case, it is likely that DXVK fails to load. Possible reasons include:
 - No Vulkan loader or driver is installed for the target architecture. Make sure to install both the respective 64-bit and 32-bit packages.
 - Your [Vulkan driver](https://github.com/doitsujin/dxvk/wiki/Driver-support) is outdatd, or your hardware/driver does not support the necessary set of features and extensions.
 
-**Note:** Some games, such as World of Warcraft, may work when setting `DXVK_FAKE_DX10_SUPPORT=1`.
+**Note:** Some games, such as World of Warcraft, may work when setting `dxgi.fakeDx10Support = True` in the DXVK configuration file for the game.
 
 ## Performance
 
