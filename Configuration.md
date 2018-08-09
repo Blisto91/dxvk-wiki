@@ -86,7 +86,8 @@ The following configuration example documents all the options that are currently
 
 
 # Override the maximum feature level that a D3D11 device can be created
-# with. Setting this to a higher value may allow some applications to run.
+# with. Setting this to a higher value may allow some applications to run
+# that would otherwise fail to create a D3D11 device.
 #
 # Supported values: 9_1, 9_2, 9_3, 10_0, 10_1, 11_0, 11_1
 
