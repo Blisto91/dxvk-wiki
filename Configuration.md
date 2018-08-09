@@ -85,6 +85,14 @@ The following configuration example documents all the options that are currently
 # d3d11.fakeStreamOutSupport = False
 
 
+# Override the maximum feature level that a D3D11 device can be created
+# with. Setting this to a higher value may allow some applications to run.
+#
+# Supported values: 9_1, 9_2, 9_3, 10_0, 10_1, 11_0, 11_1
+
+# d3d11.maxFeatureLevel = 11_0
+
+
 # Allow allocating more device memory from a Vulkan heap than the heap
 # provides. May in some cases improve performance in low-memory conditions.
 #
