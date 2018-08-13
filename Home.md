@@ -1,4 +1,4 @@
-DXVK provides a Vulkan-based traslation layer for DXGI, D3D10 and D3D11, which can be used on Linux with Wine.
+DXVK provides a Vulkan-based translation layer for DXGI, D3D10 and D3D11, which can be used on Linux with Wine.
 
 ## Feature support
 DXVK aims to provide support for D3D11, feature level 11_0, and D3D10, feature level 10_1.
