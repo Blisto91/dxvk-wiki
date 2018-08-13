@@ -15,7 +15,11 @@ On gentoo: see https://github.com/doitsujin/dxvk/issues/184
 ## Crashes
 First, look for the dxvk log files called `game_d3d11.log` and `game_dxgi.log` that should be in the same directory as the game executable. If you can't find these log files, that means dxvk wasn't used and you probably made a mistake in setting up dxvk or the game didn't use d3d11.
 
-Second, run the game with wined3d: `WINEDLLOVERRIDES="d3d11,dxgi=b" wine game.exe` . If the game crashes in the exact same manner as dxvk, it is most likely a wine bug, not a dxvk bug.
+Second, run the game with wined3d: `WINEDLLOVERRIDES="d3d11,dxgi=b" wine game.exe` . If the game crashes in the exact same manner as dxvk, it is most likely not a dxvk bug.
+
+### Unimplemented function: d3dx11_43...
+If you see errors related to any of the `d3dx` libraries, install the native version of that library using winetricks, e.g. `d3dx11_43`. These functions are not part of D3D11, and please **do not** report any issues related to them to the DXVK bug tracker.
+
 
 ### 32-bit games
 
