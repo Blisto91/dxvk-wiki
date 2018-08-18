@@ -3,12 +3,12 @@
 - **Recommended driver version:** 18.1.3 or newer
 - **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0-svn if possible.
 
-## Nvidia
+.## Nvidia
 - **Recommended driver version:** 396.51 or newer
 - **Do not** set `__GL_NextGenCompiler=0` for regular use.
 
 ## Intel ANV
 - Rarely tested. Please use `mesa-git` when testing this driver, and report any issues you run into.
 
-## AMD amdvlk / AMDGPU-PRO
-- Not supported, and any issues with this driver will be ignored. Use RADV on AMD cards instead.
+## AMDVLK
+- Rarely tested, but the most recent versions may work for certain games. Before reporting issues with this driver, please confirm that the same issue also exists on the RADV driver.
