@@ -3,7 +3,7 @@
 - **Recommended driver version:** 18.1.3 or newer
 - **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0-svn if possible.
 
-.## Nvidia
+## Nvidia
 - **Recommended driver version:** 396.51 or newer
 - **Do not** set `__GL_NextGenCompiler=0` for regular use.
 
