@@ -4,7 +4,7 @@
 - **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0-svn if possible.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
-- **Recommended driver version:** 396.51 or newer
+- **Recommended driver version:** 396.54
 - **Do not** set `__GL_NextGenCompiler=0` for regular use.
 
 ## Intel ANV
