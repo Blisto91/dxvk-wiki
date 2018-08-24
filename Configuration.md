@@ -56,6 +56,18 @@ The following configuration example documents all the options that are currently
 # dxgi.customVendorId = 0000
 
 
+# Override maximum amount of device memory and shared system memory
+# reported to the application. This may fix texture streaming issues
+# in games that do not support cards with large amounts of VRAM.
+#
+# Supported values: Any number in Megabytes.
+#
+# Enabled by default for:
+# - Life is Feudal MMO: 4095
+
+# dxgi.maxDeviceMemory = 0
+# dxgi.maxSharedMemory = 0
+
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
 # is called. Enabling this can potentially improve performance, but breaks
 # games which do not expect Map() to return an error despite using the flag.
