@@ -26,18 +26,6 @@ The following configuration example documents all the options that are currently
 # dxgi.deferSurfaceCreation = False
 
 
-# Return S_OK from IDXGIDevice::CheckInterfaceSupport when querying
-# support for a Direct3D 10 COM interface. Some games require this
-# in order to start up, others may break when this option is set.
-# 
-# Supported values: True, False
-# 
-# Enabled by default for:
-# - World of Warcraft
-
-# dxgi.fakeDx10Support = False
-
-
 # Enforce a stricter maximum frame latency. Overrides the application
 # setting specified by calling IDXGIDevice::SetMaximumFrameLatency.
 # Setting this to 0 will have no effect.
@@ -67,6 +55,8 @@ The following configuration example documents all the options that are currently
 
 # dxgi.maxDeviceMemory = 0
 # dxgi.maxSharedMemory = 0
+
+
 
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
 # is called. Enabling this can potentially improve performance, but breaks
