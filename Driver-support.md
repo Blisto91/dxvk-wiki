@@ -12,3 +12,6 @@
 
 ## AMDVLK ([#578](https://github.com/doitsujin/dxvk/issues/578))
 - Make sure to run the latest version available. Before reporting issues with this driver, please confirm that the same issue also exists on the RADV driver.
+
+## Windows drivers
+- Unsupported. Any issues that are exclusive to Windows will be ignored.
