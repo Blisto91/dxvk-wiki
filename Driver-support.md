@@ -11,4 +11,4 @@
 - Rarely tested. Please use `mesa-git` when testing this driver, and report any issues you run into.
 
 ## AMDVLK ([#578](https://github.com/doitsujin/dxvk/issues/578))
-- Rarely tested, but the most recent versions may work for certain games. Before reporting issues with this driver, please confirm that the same issue also exists on the RADV driver.
+- Make sure to run the latest version available. Before reporting issues with this driver, please confirm that the same issue also exists on the RADV driver.
