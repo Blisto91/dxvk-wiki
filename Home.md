@@ -4,8 +4,8 @@ DXVK provides a Vulkan-based translation layer for DXGI, D3D10 and D3D11, which 
 DXVK aims to provide support for D3D11, feature level 11_0, and D3D10, feature level 10_1.
 
 Features that are still missing:
-- Predication (Work in Progress)
-- Stream output
+- Predication (On hold)
+- Stream output (Work in Progress)
 
 ## Performance considerations
 Depending on the game and your hardware configuration, performance with DXVK can be expected to be between 60% and 80% of native Windows performance.
