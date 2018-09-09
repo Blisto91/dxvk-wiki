@@ -58,6 +58,26 @@ The following configuration example documents all the options that are currently
 
 
 
+# Override back buffer count for the Vulkan swap chain.
+# Setting this to 0 or less will have no effect.
+#
+# Supported values: Any number greater than or equal to 2.
+
+# dxgi.numBackBuffers = 0
+
+
+
+# Overrides synchronization interval (Vsync) for presentation.
+# Setting this to 0 disables vertical synchronization entirely.
+# A positive value 'n' will enable Vsync and repeat the same
+# image n times, and a negative value will have no effect.
+#
+# Supported values: Any non-negative number
+
+# dxgi.syncInterval = -1
+
+
+
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
 # is called. Enabling this can potentially improve performance, but breaks
 # games which do not expect Map() to return an error despite using the flag.
