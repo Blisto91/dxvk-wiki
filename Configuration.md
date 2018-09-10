@@ -138,9 +138,9 @@ The following configuration example documents all the options that are currently
 # dxvk.allowMemoryOvercommit = False
 
 
-# Use asynchronous pipeline compilation with DISABLE_OPTIMIZATION_BIT.
-# This may reduce shader compiler stutter. Currently only supported on
-# RADV. May cause issues.
+# Compile pipelines asynchronously if possible. This may reduce stuttering
+# in some games, but may also introduce rendering issues that might become
+# apparent over time. Do not report bugs with this option enabled.
 #
 # Supported values: True, False
 
