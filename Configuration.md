@@ -57,14 +57,12 @@ The following configuration example documents all the options that are currently
 # dxgi.maxSharedMemory = 0
 
 
-
 # Override back buffer count for the Vulkan swap chain.
 # Setting this to 0 or less will have no effect.
 #
 # Supported values: Any number greater than or equal to 2.
 
 # dxgi.numBackBuffers = 0
-
 
 
 # Overrides synchronization interval (Vsync) for presentation.
@@ -75,7 +73,6 @@ The following configuration example documents all the options that are currently
 # Supported values: Any non-negative number
 
 # dxgi.syncInterval = -1
-
 
 
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
@@ -114,6 +111,23 @@ The following configuration example documents all the options that are currently
 # Supported values: 9_1, 9_2, 9_3, 10_0, 10_1, 11_0, 11_1
 
 # d3d11.maxFeatureLevel = 11_0
+
+
+# Overrides the maximum allowed tessellation factor. This can be used to
+# improve performance in titles which overuse tessellation.
+# 
+# Supported values: Any number between 8 and 64
+
+# d3d11.maxTessFactor = 0
+
+
+# Overrides anisotropic filtering for all samplers. Set this to a positive
+# value to enable AF for all samplers in the game, or to 0 in order to
+# disable AF entirely. Negative values will have no effect.
+# 
+# Supported values: Any number between 0 and 16
+
+# d3d11.samplerAnisotropy = -1
 
 
 # Allow allocating more device memory from a Vulkan heap than the heap
