@@ -136,13 +136,4 @@ The following configuration example documents all the options that are currently
 # Supported values: True, False
 
 # dxvk.allowMemoryOvercommit = False
-
-
-# Compile pipelines asynchronously if possible. This may reduce stuttering
-# in some games, but may also introduce rendering issues that might become
-# apparent over time. Do not report bugs with this option enabled.
-#
-# Supported values: True, False
-
-# dxvk.useAsyncPipeCompiler = False
 ```
