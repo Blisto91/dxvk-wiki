@@ -110,7 +110,7 @@ The following configuration example documents all the options that are currently
 #
 # Supported values: 9_1, 9_2, 9_3, 10_0, 10_1, 11_0, 11_1
 
-# d3d11.maxFeatureLevel = 11_0
+# d3d11.maxFeatureLevel = 11_1
 
 
 # Overrides the maximum allowed tessellation factor. This can be used to
