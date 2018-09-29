@@ -75,6 +75,15 @@ The following configuration example documents all the options that are currently
 # dxgi.syncInterval = -1
 
 
+# Overrides present mode for vertical synchronization
+# 
+# Supported values are:
+# - 0: FIFO (default)
+# - 1: MAILBOX (allows higher frame rates than refresh rate)
+
+# dxgi.syncMode = 0
+
+
 # Handle D3D11_MAP_FLAG_DO_NOT_WAIT correctly when D3D11DeviceContext::Map()
 # is called. Enabling this can potentially improve performance, but breaks
 # games which do not expect Map() to return an error despite using the flag.
