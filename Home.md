@@ -5,7 +5,6 @@ DXVK aims to provide support for D3D11, feature level 11_1, and D3D10, feature l
 
 Features that are still missing:
 - Predication (On hold)
-- Stream output (Work in Progress)
 
 ## Performance considerations
 In order to get the best results, the following steps are recommended:
