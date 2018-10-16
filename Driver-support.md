@@ -5,7 +5,7 @@
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:** 396.54
-- For best performance, use 396.54.**05**
+- For Stream Output support and best performance, use 396.54.**09**
 
 ## Intel ANV
 - Rarely tested. Please use `mesa-git` when testing this driver, and report any issues you run into.
