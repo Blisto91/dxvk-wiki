@@ -61,13 +61,6 @@ Some games assume that `nvapi` is present regardless. In this case, spoofing an 
 ### Drivers
 Take a look at the drivers section and make sure they are up-to-date.
 
-### Stream output
-If your d3d11 log contains one of these lines, do not open a new issue, but post in https://github.com/doitsujin/dxvk/issues/135 instead.
-```
-err:   D3D11Device::CreateBuffer: D3D11_BIND_STREAM_OUTPUT not supported
-err:   D3D11Device::CreateGeometryShaderWithStreamOutput: Not implemented
-```
-
 ## Errors about missing D3D11 support
 In this case, it is likely that DXVK fails to load. Possible reasons include:
 - DXVK is not set up correctly and the game does not find the DLLs. Make sure to set up **both** 64-bit and 32-bit DXVK in the same Wine prefix.
