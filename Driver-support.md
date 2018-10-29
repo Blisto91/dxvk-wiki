@@ -1,7 +1,6 @@
 ## AMD RADV ([#252](https://github.com/doitsujin/dxvk/issues/252))
-- **GPU hangs** can be experienced in some games (see [Issue #252](https://github.com/doitsujin/dxvk/issues/252)). Most of these issues have been resolved in Mesa 18.1.3 and LLVM 7.0-svn.
-- **Recommended driver version:** 18.1.3 or newer
-- **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0-svn if possible.
+- **Recommended driver version:** 18.2.3 or newer. Games that use Stream Output require Mesa 18.3.
+- **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0 or 8.0-svn if possible.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:** 396.54
