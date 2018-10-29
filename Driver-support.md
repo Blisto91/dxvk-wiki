@@ -7,10 +7,10 @@
 - For Stream Output support and best performance, use 396.54.**09**
 
 ## Intel ANV
-- Rarely tested. Please use `mesa-git` when testing this driver, and report any issues you run into.
+- **Recommended driver version:** 18.2 or newer.
 
 ## AMDVLK ([#578](https://github.com/doitsujin/dxvk/issues/578))
-- Make sure to run the latest version available. Before reporting issues with this driver, please confirm that the same issue also exists on the RADV driver.
+- Make sure to run the latest version available. When reporting issues, please also test whether the same issue can be experienced on RADV.
 
 ## AMDGPU PRO
 - The Vulkan driver version shipping with the 18.40 driver package is outdated and will not work with DXVK.
