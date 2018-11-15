@@ -152,4 +152,13 @@ The following configuration example documents all the options that are currently
 # Supported values: True, False
 
 # dxvk.allowMemoryOvercommit = False
+
+
+# Sets number of pipeline compiler threads.
+# 
+# Supported values:
+# - 0 to automatically determine the number of threads to use
+# - any positive number to enforce the thread count
+
+# dxvk.numCompilerThreads = 0
 ```
