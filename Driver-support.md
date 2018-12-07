@@ -4,8 +4,7 @@
 - **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0 or 8.0-svn if possible.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
-- **Recommended driver version:** 396.54 or later
-- For Stream Output support, use 415.18.**04**
+- **Recommended driver version:** 415.22 or later
 
 ## Intel ANV
 - **Recommended driver version:** 18.2 or newer.
