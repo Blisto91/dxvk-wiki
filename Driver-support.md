@@ -14,6 +14,7 @@
 - Make sure to run the latest version available. When reporting issues, please also test whether the same issue can be experienced on RADV.
 
 ## AMDGPU PRO
+- **Recommended driver verson:** 18.50 or newer
 - The Vulkan driver version shipping with the 18.40 driver package is outdated and will not work with DXVK.
 
 ## Windows drivers
