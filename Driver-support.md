@@ -1,11 +1,11 @@
 ## AMD RADV ([#252](https://github.com/doitsujin/dxvk/issues/252))
 - **Recommended driver version:** 18.2.3 or newer.
-- For Stream Output support, use Mesa 18.3-git.
+- For Stream Output support, use Mesa 18.3.
 - **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0 or 8.0-svn if possible.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:** 396.54 or later
-- For Stream Output support, use 396.54.**09**
+- For Stream Output support, use 415.18.**04**
 
 ## Intel ANV
 - **Recommended driver version:** 18.2 or newer.
