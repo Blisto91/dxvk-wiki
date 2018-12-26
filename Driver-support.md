@@ -1,6 +1,7 @@
 ## AMD RADV ([#252](https://github.com/doitsujin/dxvk/issues/252))
 - **Recommended driver version:** 18.3 or newer.
-- **Note:** LLVM 6 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0 or 8.0-svn if possible.
+- **Note:** LLVM 6.0 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0.0 or 8.0-svn if possible.
+- **Note:** LLVM 7.0.1 reportedly causes GPU hangs in various games that work fine with 7.0.0 or 8.0-svn.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:** 415.22 or later
