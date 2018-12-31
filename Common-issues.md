@@ -73,7 +73,13 @@ In this case, it is likely that DXVK fails to load. Possible reasons include:
 
 When experiencing unexpectedly low performance, try setting the CPU governor to `performance`. This is a general recommendation for native OpenGL and Vulkan games as well.
 
-Some games, such as Far Cry 3, will run poorly on CPUs with more than four threads. Currently, the only known workaround is to disable all but four CPU cores prior to launching the game.
+Multithreaded games often perform poorly on CPUs with more than four logical cores with a standard wine build. A workaround is to use an esync-patched wine build.
+
+### Xwayland issues
+When running DXVK on Xwayland, even with disabled Vsync, frame rates are capped to the display refresh rate. This is an Xwayland limitation and can be worked by enabling triple buffering in `dxvk.conf`:
+```
+dxgi.numBackBuffers = 3
+```
 
 ## Reporting an issue
 First off, make sure the issue you're experiencing has not yet been reported by someone else.
