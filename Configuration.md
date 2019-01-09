@@ -168,7 +168,7 @@ The following configuration example documents all the options that are currently
 # 
 # Uses storage buffers to implement raw and structured buffer
 # views. Enabled by default on hardware which has a storage
-# buffer offset alignment requirement of 4 Bytes.
+# buffer offset alignment requirement of 4 Bytes (e.g. AMD).
 # 
 # Supported values:
 # - Auto: Don't change the default
