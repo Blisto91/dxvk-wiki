@@ -161,4 +161,32 @@ The following configuration example documents all the options that are currently
 # - any positive number to enforce the thread count
 
 # dxvk.numCompilerThreads = 0
+
+
+
+# Toggles raw SSBO usage
+# 
+# Uses storage buffers to implement raw and structured buffer
+# views. Enabled by default on hardware which has a storage
+# buffer offset alignment requirement of 4 Bytes.
+# 
+# Supported values:
+# - Auto: Don't change the default
+# - True, False: Always enable / disable
+
+# dxvk.useRawSsbo = Auto
+
+
+
+# Toggles early discard
+# 
+# Uses subgroup operations to determine whether it is safe to
+# discard fragments before the end of a fragment shader. This
+# is enabled by default on all drivers except RADV and Nvidia.
+# 
+# Supported values:
+# - Auto: Don't change the default
+# - True, False: Always enable / disable
+
+# dxvk.useEarlyDiscard = Auto
 ```
