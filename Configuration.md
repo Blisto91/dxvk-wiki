@@ -169,6 +169,8 @@ The following configuration example documents all the options that are currently
 # Uses storage buffers to implement raw and structured buffer
 # views. Enabled by default on hardware which has a storage
 # buffer offset alignment requirement of 4 Bytes (e.g. AMD).
+# Enabling this may improve performance, but is not safe on
+# hardware with higher alignment requirements.
 # 
 # Supported values:
 # - Auto: Don't change the default
@@ -183,6 +185,8 @@ The following configuration example documents all the options that are currently
 # Uses subgroup operations to determine whether it is safe to
 # discard fragments before the end of a fragment shader. This
 # is enabled by default on all drivers except RADV and Nvidia.
+# Enabling this may improve or degrade performance depending
+# on the game and hardware, or cause other issues.
 # 
 # Supported values:
 # - Auto: Don't change the default
