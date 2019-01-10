@@ -44,6 +44,16 @@ The following configuration example documents all the options that are currently
 # dxgi.customVendorId = 0000
 
 
+
+# Report Nvidia GPUs as AMD GPUs by default. This is enabled by default
+# to work around issues with NVAPI, but may cause issues in some games.
+#
+# Supported values: True, False
+
+# dxgi.nvapiHack = True
+
+
+
 # Override maximum amount of device memory and shared system memory
 # reported to the application. This may fix texture streaming issues
 # in games that do not support cards with large amounts of VRAM.
