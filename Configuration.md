@@ -85,15 +85,6 @@ The following configuration example documents all the options that are currently
 # dxgi.syncInterval = -1
 
 
-# Overrides present mode for vertical synchronization
-# 
-# Supported values are:
-# - 0: FIFO (default)
-# - 1: MAILBOX (allows higher frame rates than refresh rate)
-
-# dxgi.syncMode = 0
-
-
 # Enables or dsables d3d10 support.
 # 
 # Supported values: True, False
