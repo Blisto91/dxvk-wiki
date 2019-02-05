@@ -132,7 +132,8 @@ The following configuration example documents all the options that are currently
 
 
 # Enables SM4-compliant division-by-zero behaviour. Enabling may reduce
-# performance or cause issues in games that expect incorrect behaviour.
+# performance and / or cause issues in games that expect the default
+# behaviour of Windows drivers, which also is not SM4-compliant.
 #
 # Supported values: True, False
 #
