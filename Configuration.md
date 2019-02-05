@@ -131,6 +131,28 @@ The following configuration example documents all the options that are currently
 # d3d11.samplerAnisotropy = -1
 
 
+# Enables SM4-compliant division-by-zero behaviour. Enabling may reduce
+# performance or cause issues in games that expect incorrect behaviour.
+#
+# Supported values: True, False
+#
+# Enabled by default for:
+# - Final Fantasy XIV
+
+# d3d11.strictDivision = False
+
+
+# Clears workgroup memory in compute shaders to zero. Some games don't do
+# this and rely on undefined behaviour. Enabling may reduce performance.
+#
+# Supported values: True, False
+#
+# Enabled by default for:
+# - Quantum Break
+
+# d3d11.zeroWorkgroupMemory = False
+
+
 # Allow allocating more device memory from a Vulkan heap than the heap
 # provides. May in some cases improve performance in low-memory conditions.
 #
