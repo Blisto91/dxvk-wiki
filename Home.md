@@ -8,6 +8,7 @@ Features that are still missing:
 
 ## Performance considerations
 In order to get the best results, the following steps are recommended:
-- Use an [esync](https://github.com/zfigura/wine/tree/esync)-enabled wine build, which dramatically reduces CPU overhead in some games. Lutris may offer such builds out of the box, and for Arch Linux, a PKGBUILD is available [here](https://github.com/Tk-Glitch/PKGBUILDS).
+- Use an [esync](https://github.com/zfigura/wine/tree/esync)-enabled wine build, which dramatically reduces CPU overhead in some games. Lutris may offer such builds out of the box, and for Arch Linux, a PKGBUILD is available [here](https://github.com/Tk-Glitch/PKGBUILDS). Set `WINEESYNC=1` to enable esync.
+- Try setting `WINEDEBUG=-all` and `DXVK_LOG_LEVEL=none` in games that generate a lot of log messages.
 - Set the CPU frequency governor to `performance` on AMD and older Intel CPUs.
-- Disable your compositor, as that can lead to severe stuttering issues when games are GPU-bound.
+- Disable desktop effects on your compositor, as that can lead to severe stuttering issues when games are GPU-bound.
