@@ -1,4 +1,4 @@
-Starting with wine 4.0 and DXVK 0.95, it is possible to use Wine's own DXGI implementation instead of the one provided by DXVK.
+Starting with wine 4.0 and DXVK 0.95, it is possible to use Wine's own DXGI implementation instead of the one provided by DXVK by simply omitting the DLL override. When installing DXVK into a wine prefix, this can be done by running `setup-dxvk.sh install --without-dxgi`.
 
 ### Advantages
 Using wine's DXGI implementation allows **vkd3d** to work for D3D12 games, while DXVK can still be used with D3D11 (e.g. World of Warcraft). This is not possible when using the implementation provided by DXVK.
