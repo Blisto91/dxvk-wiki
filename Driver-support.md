@@ -12,7 +12,7 @@
 
 ## Intel ANV
 - **Recommended driver version:**
-  - 19.0 or newer.
+  - 19.0 or newer for DXVK 1.0.
   - 19.1-git for DXVK 1.1.
 
 ## AMDVLK ([#578](https://github.com/doitsujin/dxvk/issues/578))
