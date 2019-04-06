@@ -8,7 +8,7 @@
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:**
   - 415.22 or later for DXVK 1.0
-  - 418.49.4 for DXVK 1.1
+  - 418.49.04 for DXVK 1.1
 
 ## Intel ANV
 - **Recommended driver version:**
