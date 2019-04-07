@@ -3,7 +3,7 @@
   - 18.3 or newer for DXVK 1.0.
   - 19.1-git for DXVK 1.1.
 - **Note:** LLVM 6.0 can cause additional issues, such as GPU hangs or rendering bugs, which do not occur with newer LLVM versions. Please use LLVM 7.0.0 or 8.0-svn if possible.
-- **Note:** LLVM 7.0.1 reportedly causes GPU hangs in various games that work fine with 7.0.0 or 8.0-svn.
+- **Note:** LLVM 7.0.1 reportedly causes GPU hangs in various games that work fine with 7.0.0 or 8.0.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:**
