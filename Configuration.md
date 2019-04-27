@@ -11,7 +11,7 @@ DXVK_CONFIG_FILE=/home/xxx/dxvk.conf
 ```
 
 ## Example configuration
-The [configuration file](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf) in the repository documents all the options that are currently available, and leaves them to their default values. Uncomment an option by removing the `#` in order to override it.
+The [configuration file](https://github.com/doitsujin/dxvk/blob/master/dxvk.conf) in the repository documents all the options that are currently available, and leaves them at their default values. Uncomment an option by removing the `#` in order to override it.
 
 ## Per-app configuration
 One or more configuration options can be restricted to a single application as follows:
