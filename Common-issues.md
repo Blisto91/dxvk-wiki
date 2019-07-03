@@ -57,9 +57,6 @@ Some games may use `nvapi.dll` or `nvapi64.dll` when detecting an Nvidia GPU. Th
 
 Some games assume that `nvapi` is present regardless. In this case, spoofing an AMD GPU using the `dxgi.customVendorId` configuration option may help.
 
-### Overwatch is broken
-Yes, this is normal, and each time they fix it, the game comes up with another way to break on DXVK. Debugging this game is next to impossible, so it's unlikely that any issues with this game will get fixed. Use wined3d instead.
-
 ## Graphical issues
 ### Drivers
 Take a look at the drivers section and make sure they are up-to-date.
