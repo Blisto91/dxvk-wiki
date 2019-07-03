@@ -81,6 +81,9 @@ When running DXVK on Xwayland, even with disabled Vsync, frame rates are capped 
 dxgi.numBackBuffers = 3
 ```
 
+## Overwatch is broken
+Yes, this is normal, and each time they fix it, the game comes up with another way to break on DXVK. Use wined3d instead.
+
 ## Reporting an issue
 First off, make sure the issue you're experiencing has not yet been reported by someone else.
 
