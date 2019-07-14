@@ -94,4 +94,4 @@ While DXVK is not involved in handling mouse or keyboard input in any way, a lot
 It might be useful to run the game with `WINEDEBUG=-all VK_INSTANCE_LAYERS=VK_LAYER_LUNARG_standard_validation wine game.exe` and attach the terminal output to your issue. This requires the `vulkan-validation-layers` package on arch linux to be installed.
 
 ### Apitrace
-If you're opening an issue and you're having issues with making an apitrace, put [these DLLs]( https://www.dropbox.com/sh/o769ius47wpu3pw/AABYFKQFFNsCsosXhl7_HReDa?dl=0) into the directory where `yourgame.exe` is located. This will create a file `yourgame.trace` without requiring further interaction.
+If you're opening an issue and you're having issues with making an apitrace, put `d3d11.dll`, `dxgi.dll` and `dxgitrace.dll` from your apitrace build into the directory where `yourgame.exe` is located. This will create a file `yourgame.trace` without requiring further interaction.
