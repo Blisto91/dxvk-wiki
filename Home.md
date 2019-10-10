@@ -7,6 +7,7 @@ Currently unsupported features:
 - D3D11: Shared Resources.
 - D3D11: Class linkage.
 - D3D11: Predication. Currently disabled due to implementation issues.
+- D3D11: Arbitrary sampler border colors, due to lack of Vulkan support for this feature.
 - D3D11.1: Target-independent rasterization (behaves incorrectly; no MSAA16x support).
 - D3D11.2: Tiled resources (optional).
 - D3D11.3: Conservative Rasterization (optional).
