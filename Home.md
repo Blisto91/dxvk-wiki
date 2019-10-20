@@ -9,6 +9,7 @@ Currently unsupported features:
 - D3D11: Predication. Currently disabled due to implementation issues.
 - D3D11: Arbitrary sampler border colors, due to lack of Vulkan support for this feature.
 - D3D11.1: Target-independent rasterization (behaves incorrectly; no MSAA16x support).
+- D3D11.1: YUV and other multi-planar formats.
 - D3D11.2: Tiled resources (optional).
 - D3D11.3: Conservative Rasterization (optional).
 - D3D11.3: Rasterizer Ordered Views (optional).
