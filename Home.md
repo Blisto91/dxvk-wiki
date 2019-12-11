@@ -21,3 +21,6 @@ In order to get the best results, the following steps are recommended:
 - Try setting `WINEDEBUG=-all` and `DXVK_LOG_LEVEL=none` in games that generate a lot of log messages.
 - Set the CPU frequency governor to `performance` or `schedutil` on AMD and older Intel CPUs.
 - Disable desktop effects on your compositor, as that can lead to severe stuttering issues when games are GPU-bound.
+
+## Development builds
+Up-to-date builds can be found [here](https://git.froggi.es/doitsujin/dxvk/pipelines?scope=finished&page=1).
