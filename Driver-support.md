@@ -1,6 +1,6 @@
 ## AMD RADV ([#252](https://github.com/doitsujin/dxvk/issues/252))
-- **Recommended driver version:** 18.3 or newer
-- For best performance, use 19.1 or newer.
+- **Recommended driver version:** 19.2 or newer
+- For best performance, use 19.3 or newer, and enable ACO with `RADV_PERFTEST=aco`.
 
 ## Nvidia ([#267](https://github.com/doitsujin/dxvk/issues/267))
 - **Recommended driver version:** 415.22 or newer
