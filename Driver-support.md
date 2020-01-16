@@ -8,6 +8,7 @@
 
 ## Intel ANV
 - **Recommended driver version:** 19.0 or newer
+Broadwell or newer highly recommended.
 
 ## AMDVLK ([#578](https://github.com/doitsujin/dxvk/issues/578))
 - Make sure to run the latest version available.
