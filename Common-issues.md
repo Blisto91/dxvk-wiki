@@ -3,7 +3,7 @@
 Make sure you're using at least mingw-gcc 7.0. Older versions are unsupported.
 
 ### Threading support
-DXVK requires threading support from your mingw-w64 build environment. If you are missing this, you may see "error: 'mutex' is not a member of 'std'". On Debian and Ubuntu, this can usually be resolved by using the posix alternate, which supports threading. For example, choose the posix alternate from these commands (use i686 for 32-bit):
+DXVK requires threading support from your mingw-w64 build environment. If you are missing this, you may see "error: 'mutex' is not a member of 'std'". On Debian and Ubuntu, this can usually be resolved by using the posix alternate, which supports threading. For example, choose the posix alternate from these commands **(use i686 for 32-bit)**:
 
 ```
 update-alternatives --config x86_64-w64-mingw32-gcc
