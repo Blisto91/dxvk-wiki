@@ -23,4 +23,4 @@ In order to get the best results, the following steps are recommended:
 - Disable desktop effects on your compositor, as that can lead to severe stuttering issues when games are GPU-bound.
 
 ## Development builds
-Up-to-date builds can be found [here](https://git.froggi.es/doitsujin/dxvk/pipelines?scope=finished&page=1).
+Up-to-date builds can be found [here](https://github.com/doitsujin/dxvk/wiki#development-builds).
