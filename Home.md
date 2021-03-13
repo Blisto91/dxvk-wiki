@@ -6,12 +6,10 @@ DXVK aims to provide support for D3D11, feature level 11_1, and D3D10, feature l
 Currently unsupported features:
 - D3D11: Shared Resources.
 - D3D11: Class linkage.
-- D3D11: Predication. Currently disabled due to implementation issues.
-- D3D11: Arbitrary sampler border colors, due to lack of Vulkan support for this feature.
+- D3D11: Predication.
 - D3D11.1: Target-independent rasterization (behaves incorrectly; no MSAA16x support).
 - D3D11.1: YUV and other multi-planar formats.
 - D3D11.2: Tiled resources (optional).
-- D3D11.3: Conservative Rasterization (optional).
 - D3D11.3: Rasterizer Ordered Views (optional).
 - D3D11.4: D3D12 interop.
 
