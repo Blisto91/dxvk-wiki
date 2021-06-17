@@ -8,7 +8,6 @@ Currently unsupported features:
 - D3D11: Class linkage.
 - D3D11: Predication.
 - D3D11.1: Target-independent rasterization (behaves incorrectly; no MSAA16x support).
-- D3D11.1: YUV and other multi-planar formats.
 - D3D11.2: Tiled resources (optional).
 - D3D11.3: Rasterizer Ordered Views (optional).
 - D3D11.4: D3D12 interop.
