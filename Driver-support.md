@@ -15,3 +15,6 @@ Broadwell or newer highly recommended.
 
 ## Windows drivers
 - Unsupported. Any issues that are exclusive to Windows will be ignored.
+
+## Mac OS X
+- Unsupported. This project does not support Apple platforms directly, please direct any issues to the respective forks.
