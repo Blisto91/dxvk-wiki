@@ -8,7 +8,7 @@ The general recommendation to avoid issues is to **keep your drivers up to date*
 **AMD Proprietary**: We do not regularly test this driver. Compatibility is mediocre, but in some games this driver *may* provide the best performance on certain GPU architectures.
 
 ## Nvidia drivers
-Driver version **495.46** or later recommended. Compatibility is generally very good, but performance may be low on older GPUs in some games.
+Driver version **495.46** or later recommended. Compatibility is very good, but performance is unlikely to be competitive with Windows D3D11 drivers.
 
 GPUs that no longer enjoy active driver support and are limited to 470 drivers *may* work, but we cannot provide support for issues specific to these drivers.
 
