@@ -20,7 +20,7 @@ GPUs that no longer enjoy active driver support and are limited to 470 drivers *
 ## Windows
 While using DXVK on Windows may work, we do not and cannot offically support it. While many games will work just fine on a bare-bones Windows setup, there are many reasons for this not to work that are outside our control, including but not limited to:
 - Third-party software interfering, especially any sort of overlay that may be integrated into game launchers
-- Third-party Vulkan layers interfering even when the software is not running, sometimes seen with the RTSS performance overlay
+- Third-party Vulkan layers interfering even when the corresponding software is not running, sometimes seen with the RTSS performance overlay
 - Tight integration of vendor-specific libraries such as NVAPI, AMDAGS, Ansel etc., which cannot work in combination with DXVK
 - Anti-cheat systems, or weird DLL loading mechanisms where the game loads some libraries from System32 and some from the install directory
 - Broken or incomplete driver installs on laptops and other pre-built systems
