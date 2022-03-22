@@ -4,13 +4,19 @@ DXVK provides a Vulkan-based translation layer for D3D9, D3D10 and D3D11, which 
 DXVK aims to provide support for D3D11, feature level 11_1, and D3D10, feature level 10_1.
 
 Currently unsupported features:
-- D3D11: Shared Resources.
 - D3D11: Class linkage.
 - D3D11: Predication.
 - D3D11.1: Target-independent rasterization (behaves incorrectly; no MSAA16x support).
 - D3D11.2: Tiled resources (optional).
 - D3D11.3: Rasterizer Ordered Views (optional).
 - D3D11.4: D3D12 interop.
+
+Shared Resources are partially supported, with the following restrictions:
+- Proton patches are required.
+- Only 2D textures are currently supported, shared fences are not.
+- Only D3D9 and D3D11 are supported. Sharing resources with Vulkan or D3D12 will not work.
+- `IDXGIKeyedMutex` is unsupported due to extremely poor documentation.
+- This does not and will never work **at all** on Windows.
 
 ## Performance considerations
 In order to get the best results, the following steps are recommended:
